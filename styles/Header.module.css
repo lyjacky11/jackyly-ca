@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--bg-color-1);
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+.leftNav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.rightNav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+	width: 65vw;
+}
+
+.navItem {
+    margin: 0 20px;
+}
