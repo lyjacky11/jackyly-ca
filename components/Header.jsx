@@ -6,6 +6,7 @@ import styles from '../styles/Header.module.css';
 const linkedinUrl = 'https://www.linkedin.com/in/lyjacky11';
 const gitHubUrl = 'https://github.com/lyjacky11';
 const contactUrl = 'mailto:jacky@jackyly.ca';
+const resumeUrl = '/resume/jacky-ly-resume.pdf';
 
 export default function Header() {
     return (
@@ -33,6 +34,9 @@ export default function Header() {
                 </li>
                 <li className={`${styles.navItem} animate`}>
                     <Link href="">Skills</Link>
+                </li>
+                <li className={`${styles.navItem} animate`}>
+                    <Link href={resumeUrl}>Resume</Link>
                 </li>
             </ul>
         </nav >

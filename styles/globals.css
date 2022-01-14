@@ -12,8 +12,8 @@
 
   --bg-color-1: #1A3A59;
   --bg-color-2: #193454;
-  --link-color: var(--blue-700);
-  --hover-color: var(--blue-500);
+  --link-color: var(--blue-600);
+  --hover-color: var(--blue-400);
 }
 
 html,
