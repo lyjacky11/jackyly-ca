@@ -1,0 +1,7 @@
+.animate {
+	transition: transform 250ms ease-in-out;
+}
+
+.animate:hover {
+  transform: scale(1.08);
+}

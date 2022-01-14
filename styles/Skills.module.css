@@ -1,9 +1,12 @@
 .skills {
     display: flex;
     flex-direction: row;
-    gap: 15px;
 }
 
-.avatar {
-    border-radius: 50%;
+.icon {
+    margin: 25px;
+}
+
+.icon > svg {
+    font-size: 50px;
 }

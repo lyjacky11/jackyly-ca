@@ -8,37 +8,37 @@ export default function Projects() {
             <div className={styles.grid}>
                 <ProjectItem
                     projectLink="https://nextjs.org/docs"
-                    title="Documentation &rarr;"
+                    title="Documentation"
                     desc="Find in-depth information about Next.js features and API."
                 />
 
                 <ProjectItem
                     projectLink="https://nextjs.org/learn"
-                    title="Learn &rarr;"
+                    title="Learn"
                     desc="Learn about Next.js in an interactive course with quizzes!"
                 />
 
                 <ProjectItem
                     projectLink="https://nextjs.org/docs"
-                    title="Documentation &rarr;"
+                    title="Documentation"
                     desc="Find in-depth information about Next.js features and API."
                 />
 
                 <ProjectItem
                     projectLink="https://nextjs.org/learn"
-                    title="Learn &rarr;"
+                    title="Learn"
                     desc="Learn about Next.js in an interactive course with quizzes!"
                 />
 
                 <ProjectItem
                     projectLink="https://nextjs.org/docs"
-                    title="Documentation &rarr;"
+                    title="Documentation"
                     desc="Find in-depth information about Next.js features and API."
                 />
 
                 <ProjectItem
                     projectLink="https://nextjs.org/learn"
-                    title="Learn &rarr;"
+                    title="Learn"
                     desc="Learn about Next.js in an interactive course with quizzes!"
                 />
             </div>

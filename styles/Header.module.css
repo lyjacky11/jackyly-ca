@@ -27,4 +27,14 @@
 
 .navItem {
     margin: 0 20px;
+    font-weight: bold;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navItem svg {
+    font-size: 1.6rem;
 }

@@ -7,13 +7,30 @@
 }
 
 .displayName {
-
+    padding: 5px;
 }
 
 .position {
-
+    padding: 5px;
+    font-size: 18px;
 }
 
 .subtitle {
-    
+    padding: 5px;
+}
+
+.resumeDiv {
+    margin-top: 40px;
+}
+
+.resumeBtn {
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--link-color);
+}
+
+.resumeBtn:hover {
+    color: var(--white);
 }

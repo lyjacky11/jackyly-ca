@@ -22,11 +22,8 @@ export default function Main() {
       <Header />
       <main className={styles.main}>
         <Profile />
-        <br />
         <About />
-        <br />
         <Projects />
-        <br />
         <Skills />
       </main>
       <Footer />

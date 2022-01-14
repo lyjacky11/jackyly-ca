@@ -6,3 +6,11 @@
 .footer p {
     
 }
+
+.email {
+  
+}
+
+.email > svg {
+  font-size: 18px;
+}
