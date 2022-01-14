@@ -1,9 +1,7 @@
 import Link from 'next/link';
+import { gitHubUrl, contactUrl } from '../constants';
 import { MdEmail } from 'react-icons/md';
 import styles from '../styles/Footer.module.css';
-
-const gitHubUrl = 'https://github.com/lyjacky11';
-const contactUrl = 'mailto:jacky@jackyly.ca';
 
 export default function Footer() {
     return (

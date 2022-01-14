@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { resumeUrl } from '../constants';
 import styles from '../styles/Profile.module.css';
-
-const resumeUrl = '/resume/jacky-ly-resume.pdf';
 
 export default function Profile() {
     return (

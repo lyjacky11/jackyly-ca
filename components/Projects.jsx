@@ -14,17 +14,6 @@ export default function Projects({ projects }) {
                         projectLink={project.url}
                     />
                 ))}
-                {/* <ProjectItem
-                    projectLink="https://nextjs.org/docs"
-                    title="Documentation"
-                    desc="Find in-depth information about Next.js features and API."
-                />
-
-                <ProjectItem
-                    projectLink="https://nextjs.org/learn"
-                    title="Learn"
-                    desc="Learn about Next.js in an interactive course with quizzes!"
-                /> */}
             </div>
         </div>
     )

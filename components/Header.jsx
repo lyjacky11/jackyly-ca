@@ -1,12 +1,8 @@
 import Link from 'next/link';
+import { linkedinUrl, gitHubUrl, contactUrl, resumeUrl } from '../constants';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import styles from '../styles/Header.module.css';
-
-const linkedinUrl = 'https://www.linkedin.com/in/lyjacky11';
-const gitHubUrl = 'https://github.com/lyjacky11';
-const contactUrl = 'mailto:jacky@jackyly.ca';
-const resumeUrl = '/resume/jacky-ly-resume.pdf';
 
 export default function Header() {
     return (
