@@ -4,9 +4,7 @@ import styles from '../styles/About.module.css';
 export default function About() {
     return (
         <div className={styles.aboutMe}>
-            <div className={styles.title}>
-                <h2>About Me</h2>
-            </div>
+            <h2>About Me</h2>
             <div className={styles.desc}>
                 <p>Hi there! My name is Jacky Ly and I&apos;m currently a co-op student studying Computer Science at Ryerson University.</p>
                 <p>I build and develop real-time web applications mainly in HTML5, CSS3, JavaScript, React, etc.</p>

@@ -1,6 +1,9 @@
 .skills {
     display: flex;
     flex-direction: row;
+    padding: 20px;
+    border-radius: 30px;
+    background-color:var(--bg-color-1);
 }
 
 .icon {
