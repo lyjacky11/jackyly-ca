@@ -7,17 +7,43 @@ import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 import styles from '../styles/main.module.css';
 
+const pageTitle = 'Jacky Ly | Ryerson CS Co-op';
+const pageDesc = 'Hi there! I am Jacky Ly, a co-op student studying Computer Science at Ryerson University. Check out my projects on GitHub! - @lyjacky11';
+const pageAuthor = 'Jacky Ly';
+const pageTheme = '#1A3A59';
+
+const websiteUrl = 'https://jackyly.ca/';
+const faviconUrl = '/favicon.ico';
+const imageUrl = websiteUrl + 'img/cover.png';
+
 export default function Main() {
   return (
     <div>
       <Head>
 		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		    <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-		    <meta name="title" content="Jacky Ly | Ryerson CS Co-op" />
-		    <meta name="author" content="Jacky Ly" />
-		    <meta name="description" content="Hi there! I'm Jacky Ly, a co-op student studying Computer Science at Ryerson University. Check out my projects on GitHub! - @lyjacky11" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <title>Jacky Ly | Ryerson CS Co-op</title>
+		    <meta name="title" content={pageTitle} />
+		    <meta name="author" content={pageAuthor} />
+		    <meta name="description" content={pageDesc} />
+        <meta name="theme-color" content={pageTheme} />
+        <link rel="shortcut icon" href={faviconUrl} />
+        <title>{pageTitle}</title>
+        
+        <meta itemProp="name" content={pageTitle} />
+        <meta itemProp="description" content={pageDesc} />
+        <meta itemProp="image" content={imageUrl} />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={websiteUrl} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
+        <meta property="og:image" content={imageUrl} />
+        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={websiteUrl} />
+        <meta property="twitter:title" content={pageTitle} />
+        <meta property="twitter:description" content={pageDesc} />
+        <meta property="twitter:image" content={imageUrl} />
       </Head>
       <Header />
       <main className={styles.main}>
