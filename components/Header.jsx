@@ -24,16 +24,16 @@ export default function Header() {
             </ul>
             <ul className={styles.rightNav}>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="">Home</Link>
+                    <Link href="/">Home</Link>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="">About</Link>
+                    <Link href="/">About</Link>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="">Projects</Link>
+                    <Link href="/">Projects</Link>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="">Skills</Link>
+                    <Link href="/">Skills</Link>
                 </li>
                 <li className={`${styles.navItem} animate`}>
                     <Link href={resumeUrl}>Resume</Link>

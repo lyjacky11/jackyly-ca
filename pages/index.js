@@ -16,7 +16,7 @@ const websiteUrl = 'https://jackyly.ca/';
 const faviconUrl = '/favicon.ico';
 const imageUrl = websiteUrl + 'img/cover.png';
 
-export default function Main() {
+export default function Main({ projects }) {
   return (
     <div>
       <Head>
@@ -49,10 +49,21 @@ export default function Main() {
       <main className={styles.main}>
         <Profile />
         <About />
-        <Projects />
+        <Projects projects={projects} />
         <Skills />
       </main>
       <Footer />
     </div>
   )
+}
+
+export const getStaticProps = async () => {
+  // need to change this URL
+  const res = await fetch("http://localhost:3000/api/projects");
+  const projects = await res.json();
+  return  {
+    props: {
+      projects
+    }
+  }
 }
