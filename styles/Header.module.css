@@ -6,6 +6,8 @@
     background-color: var(--bg-color-1);
     position: fixed;
     width: 100%;
+    z-index: 100;
+    opacity: 97%;
 }
 
 .nav ul {
