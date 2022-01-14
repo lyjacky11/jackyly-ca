@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 import styles from '../styles/Header.module.css';
 
 const linkedinUrl = 'https://www.linkedin.com/in/lyjacky11';
 const gitHubUrl = 'https://github.com/lyjacky11';
+const contactUrl = 'mailto:jacky@jackyly.ca';
 
 export default function Header() {
     return (
@@ -14,6 +16,9 @@ export default function Header() {
                 </li>
                 <li className={`${styles.navItem} animate`}>
                     <Link href={gitHubUrl}><a target="_blank"><FaGithub /></a></Link>
+                </li>
+                <li className={`${styles.navItem} animate`}>
+                    <Link href={contactUrl}><a target="_blank"><MdEmail /></a></Link>
                 </li>
             </ul>
             <ul className={styles.rightNav}>
