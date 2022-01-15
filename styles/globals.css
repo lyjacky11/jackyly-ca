@@ -16,6 +16,19 @@
   --hover-color: var(--blue-400);
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 10px;
+}
+
 html,
 body {
   padding: 0;
