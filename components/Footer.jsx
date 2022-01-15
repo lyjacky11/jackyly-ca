@@ -17,7 +17,8 @@ export default function Footer() {
                     <Link href={gitHubUrl}><a target="_blank"><FaGithub /></a></Link>
                 </li>
             </ul>
+            <p>This site is powered by <Link href="https://nextjs.org"><a target="_blank">Next.js</a></Link> and <Link href="https://reactjs.org"><a target="_blank">React</a></Link>.</p>
             <p>All trademarks and logos used are the property of their respective owners.</p>
-        </footer>
+        </footer >
     )
 }
