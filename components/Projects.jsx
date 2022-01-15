@@ -1,4 +1,4 @@
-import ProjectItem from './ProjectItem';
+import Link from 'next/link';
 import styles from '../styles/Projects.module.css';
 
 export default function Projects({ projects }) {
@@ -7,12 +7,12 @@ export default function Projects({ projects }) {
             <h2>Projects</h2>
             <div className={styles.grid}>
                 {projects.map((project) => (
-                    <ProjectItem
-                        key={project.id}
-                        title={project.title}
-                        desc={project.desc}
-                        projectLink={project.url}
-                    />
+                    <Link href={project.url} key={project.id}>
+                        <a className={styles.card} target="_blank">
+                            <h2>{project.title}</h2>
+                            <p>{project.desc}</p>
+                        </a>
+                    </Link>
                 ))}
             </div>
         </div>
