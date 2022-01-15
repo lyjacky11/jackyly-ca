@@ -1,0 +1,37 @@
+.container {
+  min-height: 100vh;
+  color: var(--white);
+  background-color: var(--bg-color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  
+}
+
+.image {
+
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 100px;
+}
+
+.subtitle {
+  font-size: 36px;
+}
+
+.button {
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--link-color);
+}
+
+.button:hover {
+    color: var(--white);
+}
