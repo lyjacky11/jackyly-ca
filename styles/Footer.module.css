@@ -7,6 +7,27 @@
     
 }
 
+.socials {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.socialIcon {
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.socialIcon a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.socialIcon svg {
+    font-size: 1.3rem;
+}
+
 .email {
   
 }

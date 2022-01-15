@@ -15,7 +15,7 @@ export default function Projects({ projects }) {
                         <p className={styles.desc}>{project.desc}</p>
                         <Link href={project.url}><a target="_blank"><b><FaLaptop /> Live Demo</b></a></Link>
                         <b>&nbsp; | &nbsp;</b>
-                        <Link href={project.github}><a target="_blank"><b><FaGithub /> Source Code</b></a></Link>
+                        <Link href={project.github}><a target="_blank"><b><FaGithub /> GitHub</b></a></Link>
                         <p><b>Languages:</b> {project.langs}</p>
                         <p><b>Tools:</b> {project.tools}</p>
                     </div>

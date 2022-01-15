@@ -18,13 +18,13 @@
     display: flex;
     list-style: none;
     justify-content: flex-start;
+    width: 35vw;
 }
 
 .rightNav {
     display: flex;
     list-style: none;
     justify-content: flex-end;
-	width: 65vw;
 }
 
 .navItem {
@@ -39,4 +39,10 @@
 
 .navItem svg {
     font-size: 1.6rem;
+}
+
+@media screen and (max-width: 600px) {
+    .leftNav {
+        display: none;
+    }
 }
