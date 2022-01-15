@@ -11,11 +11,6 @@ module.exports = {
         destination: '/resume/jacky-ly-resume.pdf',
         permanent: true,
       },
-      {
-        source: '/YT',
-        destination: 'https://www.youtube.com/user/LyJacky',
-        permanent: true,
-      },
     ]
   },
 }
