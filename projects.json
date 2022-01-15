@@ -3,60 +3,61 @@
         "id": 1,
         "title": "Discover Asian Dramas",
         "desc": "Discover and search for popular Asian dramas in Korean, Japanese, Chinese, and more!",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/asian-dramas.png",
         "url": "https://dramas.jackyly.ca/",
         "github": "https://github.com/lyjacky11/kdrama",
-        "frameworks": "",
-        "status": ""
+        "langs": "HTML5, CSS3, React",
+        "tools": "TMDB API"
+
     },
     {
         "id": 2,
         "title": "Movie Finder",
         "desc": "Search and rate movies you have watched! Get recommended movies based on other user ratings!",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/movie-finder.png",
         "url": "https://cps842-movie-ratings.web.app/",
         "github": "https://github.com/lyjacky11/movie-finder",
-        "frameworks": "",
-        "status": ""
+        "langs": "HTML5, CSS3, React",
+        "tools": "Firebase, Firestore, TMDB API"
     },
     {
         "id": 3,
         "title": "Toronto Food Places",
         "desc": "Displays a list of various food places in Toronto and surrounding areas! Includes Google Maps of each place.",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/food-places.png",
         "url": "https://foods.jackyly.ca/",
         "github": "https://github.com/lyjacky11/foods-react",
-        "frameworks": "",
-        "status": ""
+        "langs": "HTML5, CSS3, React",
+        "tools": "JSON, Google Maps API"
     },
     {
         "id": 4,
         "title": "Reactwitter",
         "desc": "A clone of the Twitter desktop application. This project uses Firebase for user authentication.",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/twitter.png",
         "url": "https://reactwitter.jackyly.ca/",
         "github": "https://github.com/lyjacky11/reactwitter",
-        "frameworks": "",
-        "status": ""
+        "langs": "HTML5, CSS3, React",
+        "tools": "Firebase, Firestore DB"
     },
     {
         "id": 5,
         "title": "Time Sheet Calculator",
         "desc": "Calculates the number of hours worked based on the shift's start, break, and end times.",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/time-sheets.png",
         "url": "https://timesheet.jackyly.ca/",
         "github": "https://github.com/lyjacky11/timesheet-react",
-        "frameworks": "",
-        "status": ""
+        "langs": "HTML5, CSS3, React",
+        "tools": "Google Calendar API"
     },
     {
         "id": 6,
         "title": "Stock Market Discord Bot",
         "desc": "A custom Discord bot that fetches stock market information from Yahoo Finance API.",
-        "thumbnail": "",
+        "thumbnail": "/thumbnails/stock-market.png",
         "url": "https://discord.com/oauth2/authorize?&client_id=793278321600888912&scope=bot&permissions=67584",
         "github": "https://github.com/lyjacky11/stock-market-bot",
-        "frameworks": "",
-        "status": ""
+        "langs": "Python, discord.py Library",
+        "tools": "Yahoo Finance API, Google Cloud VM"
     }
 ]
