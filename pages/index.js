@@ -1,5 +1,6 @@
-import Head from 'next/head';
 import { serverUrl, pageTitle, pageDesc, pageAuthor, pageTheme, faviconUrl, imageUrl } from '../constants';
+import projects from '../projects.json';
+import Head from 'next/head';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import About from '../components/About';
@@ -8,7 +9,7 @@ import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 import styles from '../styles/main.module.css';
 
-export default function Main({ projects }) {
+export default function Main() {
   return (
     <div>
       <Head>
@@ -53,12 +54,13 @@ export default function Main({ projects }) {
   )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`${serverUrl}/api/projects`);
-  const projects = await res.json();
-  return  {
-    props: {
-      projects
-    }
-  }
-}
+// Fetch from API
+// export const getStaticProps = async () => {
+//   const res = await fetch(`${serverUrl}/api/projects`);
+//   const projects = await res.json();
+//   return  {
+//     props: {
+//       projects
+//     }
+//   }
+// }
