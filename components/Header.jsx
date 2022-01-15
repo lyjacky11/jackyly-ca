@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Link as Scroll } from 'react-scroll';
 import { linkedinUrl, gitHubUrl, contactUrl, resumeUrl } from '../constants';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
@@ -20,19 +21,16 @@ export default function Header() {
             </ul>
             <ul className={styles.rightNav}>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="/">Home</Link>
+                    <Scroll to="profile" spy={true}>Home</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="/">About</Link>
+                    <Scroll to="about" spy={true}>About</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="/">Projects</Link>
+                    <Scroll to="projects" spy={true}>Projects</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Link href="/">Skills</Link>
-                </li>
-                <li className={`${styles.navItem} animate`}>
-                    <Link href={resumeUrl}>Resume</Link>
+                    <Scroll to="skills" spy={true}>Skills</Scroll>
                 </li>
             </ul>
         </nav >

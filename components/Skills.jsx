@@ -5,7 +5,7 @@ import styles from '../styles/Skills.module.css';
 
 export default function Skills() {
     return (
-        <>
+        <div id="skills">
             <h2>Skills</h2>
             <div className={styles.skills}>
                 <div className={styles.icon}>
@@ -33,6 +33,6 @@ export default function Skills() {
                     <p>Python</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

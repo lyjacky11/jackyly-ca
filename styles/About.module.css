@@ -1,8 +1,6 @@
 .aboutMe {
+    margin: 0 20px;
     padding: 20px;
     border-radius: 30px;
     background-color:var(--bg-color-1);
-}
-
-.desc {
 }
