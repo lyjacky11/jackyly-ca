@@ -1,4 +1,9 @@
 .skills {
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.skillIcons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

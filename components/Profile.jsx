@@ -5,7 +5,7 @@ import styles from '../styles/Profile.module.css';
 
 export default function Profile() {
     return (
-        <div id="profile" className={styles.profile}>
+        <div className={styles.profile}>
             <Image className={styles.avatar} src={avatarUrl} alt="Avatar" width={175} height={175} />
             <h1 className={styles.displayName}>Jacky Ly</h1>
             <p className={styles.position}>Web Developer, Computer Science Co-op</p>

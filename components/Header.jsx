@@ -21,16 +21,16 @@ export default function Header() {
             </ul>
             <ul className={styles.rightNav}>
                 <li className={`${styles.navItem} animate`}>
-                    <Scroll to="profile" spy={true}>Home</Scroll>
+                    <Scroll to="home" activeClass="active" spy={true}>Home</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Scroll to="about" spy={true}>About</Scroll>
+                    <Scroll to="about" activeClass="active" spy={true}>About</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Scroll to="projects" spy={true}>Projects</Scroll>
+                    <Scroll to="projects" activeClass="active" spy={true}>Projects</Scroll>
                 </li>
                 <li className={`${styles.navItem} animate`}>
-                    <Scroll to="skills" spy={true}>Skills</Scroll>
+                    <Scroll to="skills" activeClass="active" spy={true}>Skills</Scroll>
                 </li>
             </ul>
         </nav >

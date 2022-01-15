@@ -1,13 +1,12 @@
-import Image from 'next/image';
 import { FaHtml5, FaReact, FaPython } from 'react-icons/fa';
 import { SiCss3, SiJavascript, SiFirebase } from 'react-icons/si';
 import styles from '../styles/Skills.module.css';
 
 export default function Skills() {
     return (
-        <div id="skills">
+        <div className={styles.skills}>
             <h2>Skills</h2>
-            <div className={styles.skills}>
+            <div className={styles.skillIcons}>
                 <div className={styles.icon}>
                     <FaHtml5 style={{ color: '#FF5722' }} />
                     <p>HTML5</p>

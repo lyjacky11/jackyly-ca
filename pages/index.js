@@ -38,10 +38,14 @@ export default function Main({ projects }) {
         <meta property="twitter:image" content={imageUrl} />
       </Head>
       <Header />
+      <div id="home" />
       <main className={styles.main}>
         <Profile />
+        <div id="about" />
         <About />
+        <div id="projects" />
         <Projects projects={projects} />
+        <div id="skills" />
         <Skills />
       </main>
       <Footer />
