@@ -21,4 +21,4 @@ export const pageTheme = '#1A3A59';
 
 export const avatarUrl = '/img/profile.png';
 export const faviconUrl = '/favicon.ico';
-export const imageUrl = serverUrl + '/img/cover.png';
+export const imageUrl = remoteServer + '/img/cover.png';
