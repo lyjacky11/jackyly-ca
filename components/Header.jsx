@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Link as Scroll } from 'react-scroll';
-import { linkedinUrl, gitHubUrl, contactUrl, resumeUrl } from '../constants';
+import { linkedinUrl, gitHubUrl, contactUrl } from '../constants';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import styles from '../styles/Header.module.css';

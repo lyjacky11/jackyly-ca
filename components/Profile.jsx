@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Link as Scroll } from 'react-scroll';
 import { avatarUrl, resumeUrl } from '../constants';
 import styles from '../styles/Profile.module.css';
 
 export default function Profile() {
     return (
         <div className={styles.profile}>
-            <Image className={styles.avatar} src={avatarUrl} alt="Avatar" width={175} height={175} />
+            <Scroll to="about" activeClass="active" spy={true}><Image className={styles.avatar} src={avatarUrl} alt="Avatar" width={175} height={175} /></Scroll>
             <h1 className={styles.displayName}>Jacky Ly</h1>
             <p className={styles.position}>Web Developer, Computer Science Co-op</p>
             <h3 className={styles.subtitle}>Ryerson University</h3>
