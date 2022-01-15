@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { avatarUrl, resumeUrl } from '../constants';
+import { avatarUrl, resumeUrl, gDocsResumeUrl } from '../constants';
 import styles from '../styles/Profile.module.css';
 
 export default function Profile() {
@@ -11,6 +11,7 @@ export default function Profile() {
             <p className={styles.position}>Web Developer, Computer Science Co-op</p>
             <h3 className={styles.subtitle}>Ryerson University</h3>
             <div className={`${styles.resumeDiv} animate`}><Link href={resumeUrl}><a className={styles.resumeBtn} target="_blank">View Resume</a></Link></div>
+            {/* <div className={`${styles.resumeDiv} animate`}><Link href={gDocsResumeUrl}><a className={styles.resumeBtn} target="_blank">Google Docs</a></Link></div> */}
         </div>
     )
 }

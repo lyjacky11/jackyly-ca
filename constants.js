@@ -10,6 +10,7 @@ export const gitHubUrl = 'https://github.com/lyjacky11';
 export const projectsUrl = gitHubUrl + '?tab=repositories';
 export const linkedinUrl = 'https://www.linkedin.com/in/lyjacky11';
 export const resumeUrl = '/resume/jacky-ly-resume.pdf';
+export const gDocsResumeUrl = 'https://docs.google.com/viewer?url=' + remoteServer + resumeUrl + '&embedded=true';
 
 export const pageAuthor = 'Jacky Ly';
 export const pageTitle = pageAuthor + ' | Ryerson CS Co-op';
