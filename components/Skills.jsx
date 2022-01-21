@@ -1,5 +1,5 @@
 import { FaHtml5, FaReact, FaPython } from 'react-icons/fa';
-import { SiCss3, SiJavascript, SiFirebase } from 'react-icons/si';
+import { SiCss3, SiJavascript, SiJava } from 'react-icons/si';
 import styles from '../styles/Skills.module.css';
 
 export default function Skills() {
@@ -24,11 +24,11 @@ export default function Skills() {
                     <p>React</p>
                 </div>
                 <div className={styles.icon}>
-                    <SiFirebase style={{ color: '#FFCA28' }} />
-                    <p>Firebase</p>
+                    <SiJava style={{ color: '#ED7E17' }} />
+                    <p>Java</p>
                 </div>
                 <div className={styles.icon}>
-                    <FaPython style={{ color: '#FFFFFF' }} />
+                    <FaPython style={{ color: '#FFD43B' }} />
                     <p>Python</p>
                 </div>
             </div>
