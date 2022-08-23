@@ -24,12 +24,12 @@ export default function Skills() {
                     <p>React</p>
                 </div>
                 <div className={styles.icon}>
-                    <SiJava style={{ color: '#ED7E17' }} />
-                    <p>Java</p>
-                </div>
-                <div className={styles.icon}>
                     <FaPython style={{ color: '#FFD43B' }} />
                     <p>Python</p>
+                </div>
+                <div className={styles.icon}>
+                    <SiJava style={{ color: '#ED7E17' }} />
+                    <p>Java</p>
                 </div>
             </div>
         </div>
