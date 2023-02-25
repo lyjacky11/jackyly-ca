@@ -7,8 +7,9 @@ export default function About() {
         <div className={styles.aboutMe}>
             <h2>About Me</h2>
             <div className={styles.desc}>
-                <p>Hi there! My name is Jacky Ly, I build and develop real-time web applications mainly in HTML5, CSS3, JavaScript, React, etc.</p>
-                <p>I always try to learn about new technologies and create high-quality projects in my spare time!</p>
+                <p>Hi there, I'm Jacky! I specialize in building real-time web applications using HTML/CSS, JavaScript, React, and more.</p>
+                <p>I'm passionate about learning new technologies and creating high-quality projects in my spare time!</p>
+                <p>With experience in front-end and back-end development, I am skilled in creating robust and scalable solutions that meet user needs.</p>
                 <p>My <Link href={projectsUrl}><a target="_blank">projects</a></Link> are available on my <Link href={gitHubUrl}><a target="_blank">GitHub profile</a></Link>. Feel free to check out my resume or contact me by email!</p>
             </div>
         </div>
