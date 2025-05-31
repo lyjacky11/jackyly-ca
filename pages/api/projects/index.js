@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 // import axios from 'axios';
-// const API_URL = "https://seyon123.github.io/jsons/seyon-dev/projects.json";
+// const API_URL = "https://username.github.io/jsons/projects.json";
 
 // export default async function handler(req, res) {
 //   try {
@@ -13,7 +13,7 @@
 //   }
 // }
 
-import projectsFile from '../../../projects.json';
+import projectsFile from "../../../projects.json";
 
 export default function handler(req, res) {
     const projects = JSON.stringify(projectsFile);

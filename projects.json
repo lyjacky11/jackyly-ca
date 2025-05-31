@@ -6,7 +6,7 @@
         "thumbnail": "/thumbnails/asian-dramas.png",
         "url": "https://dramas.jackyly.ca/",
         "github": "https://github.com/lyjacky11/kdrama",
-        "langs": "HTML5, CSS3, React",
+        "langs": "Javascript, React",
         "tools": "TMDB API"
     },
     {
@@ -16,8 +16,8 @@
         "thumbnail": "/thumbnails/movie-finder.png",
         "url": "https://cps842-movie-ratings.web.app/",
         "github": "https://github.com/lyjacky11/movie-finder",
-        "langs": "HTML5, CSS3, React",
-        "tools": "Firebase, Firestore, TMDB API"
+        "langs": "Javascript, React",
+        "tools": "Firebase, Firestore DB, TMDB API"
     },
     {
         "id": 3,
@@ -26,7 +26,7 @@
         "thumbnail": "/thumbnails/food-places.png",
         "url": "https://foods.jackyly.ca/",
         "github": "https://github.com/lyjacky11/foods-react",
-        "langs": "HTML5, CSS3, React",
+        "langs": "Javascript, React",
         "tools": "JSON, Google Maps API"
     },
     {
@@ -36,7 +36,7 @@
         "thumbnail": "/thumbnails/twitter.png",
         "url": "https://reactwitter.jackyly.ca/",
         "github": "https://github.com/lyjacky11/reactwitter",
-        "langs": "HTML5, CSS3, React",
+        "langs": "Javascript, React",
         "tools": "Firebase, Firestore DB"
     },
     {
@@ -46,7 +46,7 @@
         "thumbnail": "/thumbnails/time-sheets.png",
         "url": "https://timesheet.jackyly.ca/",
         "github": "https://github.com/lyjacky11/timesheet-react",
-        "langs": "HTML5, CSS3, React",
+        "langs": "Javascript, React",
         "tools": "Google Calendar API"
     },
     {
@@ -54,7 +54,7 @@
         "title": "Stock Market Discord Bot",
         "desc": "A custom Discord bot that fetches stock market information from Yahoo Finance API.",
         "thumbnail": "/thumbnails/stock-market.png",
-        "url": "https://discord.com/oauth2/authorize?&client_id=793278321600888912&scope=bot&permissions=67584",
+        "url": "https://github.com/lyjacky11/stock-market-bot",
         "github": "https://github.com/lyjacky11/stock-market-bot",
         "langs": "Python, discord.py Library",
         "tools": "Yahoo Finance API, Google Cloud VM"
